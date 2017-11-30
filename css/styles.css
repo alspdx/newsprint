@@ -2,3 +2,33 @@
   background-image: url("../img/newspapers.jpg");
   background-size: cover;
 }
+
+.carousel-two {
+  background: url("../img/on-the-train.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.carousel-three {
+  background: url("../img/old-man.jpg");
+  background-size: cover;
+  background-position: 50% 85%;
+}
+
+.card {
+  text-align: center;
+}
+
+/*@media screen and (max-width: 990px) {
+  .resize-img {
+    height: auto;
+    object-fit: cover;
+  }
+}*/
+
+@media screen and (min-width: 100px) {
+  .resize-img {
+    width: 100%;
+
+    object-fit: cover;
+  }
+}
